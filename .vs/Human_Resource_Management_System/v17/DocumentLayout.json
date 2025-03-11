@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|d:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\prn212\\project_prn212\\prn_project\\human_resource_management_system\\businessobjects\\hrmsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\hrmsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HrmSystemContext.cs",
+              "DocumentMoniker": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\BusinessObjects\\HrmSystemContext.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\HrmSystemContext.cs",
+              "ToolTip": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\BusinessObjects\\HrmSystemContext.cs",
+              "RelativeToolTip": "BusinessObjects\\HrmSystemContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T02:03:51.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
