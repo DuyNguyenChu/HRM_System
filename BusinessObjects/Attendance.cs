@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BusinessObjects;
 
@@ -20,4 +21,18 @@ public partial class Attendance
     public string? LeaveType { get; set; }
 
     public virtual Employee Employee { get; set; } = null!;
+
+
+    [NotMapped] // Không lưu vào database
+    public int WorkDays { get; set; }
+
+    [NotMapped] // Nghỉ phép
+    public int OnLeave { get; set; }
+
+    [NotMapped] // Nghỉ bệnh
+    public int SickLeave { get; set; }
+
+    [NotMapped] // Nghỉ không lương
+    public int LeaveWithoutPay { get; set; }
+
 }

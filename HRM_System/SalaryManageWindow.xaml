@@ -1,0 +1,25 @@
+﻿<Window x:Class="HRM_System.SalaryManageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HRM_System"
+        mc:Ignorable="d"
+        Title="SalaryManageWindow" Height="500" Width="1000">
+    <Grid Margin="10">
+        <DataGrid x:Name="salaryDataGrid" Grid.Row="1" Margin="0,10,0,10" 
+      AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Salary ID" Binding="{Binding SalaryId}" Width="80"/>
+                <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" Width="80"/>
+                <DataGridTextColumn Header="Full Name" Binding="{Binding Employee.FullName}" Width="120"/>
+                <DataGridTextColumn Header="Basic Salary" Binding="{Binding BasicSalary}" Width="110"/>
+                <DataGridTextColumn Header="Allowance" Binding="{Binding Allowance}" Width="110"/>
+                <DataGridTextColumn Header="Bonus" Binding="{Binding Bonus}" Width="110"/>
+                <DataGridTextColumn Header="Deduction" Binding="{Binding Deduction}" Width="110"/>
+                <DataGridTextColumn Header="Total Income" Binding="{Binding TotalIncome}" Width="110"/>
+                <DataGridTextColumn Header="PayDate" Binding="{Binding PayDate}" Width="110"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

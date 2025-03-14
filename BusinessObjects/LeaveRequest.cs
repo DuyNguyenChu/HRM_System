@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BusinessObjects;
 
@@ -18,4 +19,14 @@ public partial class LeaveRequest
     public string? Status { get; set; }
 
     public virtual Employee Employee { get; set; } = null!;
+
+
+    [NotMapped] // Nghỉ phép
+    public int OnLeave { get; set; }
+
+    [NotMapped] // Nghỉ bệnh
+    public int SickLeave { get; set; }
+
+    [NotMapped] // Nghỉ không lương
+    public int LeaveWithoutPay { get; set; }
 }

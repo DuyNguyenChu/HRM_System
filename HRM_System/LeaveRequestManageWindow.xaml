@@ -1,0 +1,39 @@
+﻿<Window x:Class="HRM_System.LeaveRequestManageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HRM_System"
+        mc:Ignorable="d"
+        Title="LeaveRequestManageWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Search & Header -->
+            <RowDefinition Height="*"/>
+            <!-- Attendance List -->
+            <RowDefinition Height="Auto"/>
+            <!-- Add/Delete Section -->
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
+            <!-- TEST/ Có thể xóa -->
+            <Button Content="Time Keeping" Click="test_Click" Margin="5,0,0,0"/>
+            <!-- TEST/ Có thể xóa -->
+            <Button Content="Leave Request Tracking" Click="LRTracking_Click" Margin="5,0,0,0"/>
+        </StackPanel>
+
+        <DataGrid x:Name="leaveRequestDataGrid" Grid.Row="1" Margin="0,10,0,10" 
+AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Leave ID" Binding="{Binding LeaveId}" Width="80"/>
+                <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" Width="80"/>
+                <DataGridTextColumn Header="Full Name" Binding="{Binding Employee.FullName}" Width="120"/>
+                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="110"/>
+                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="110"/>
+                <DataGridTextColumn Header="Leave Type" Binding="{Binding LeaveType}" Width="120"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="110"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
