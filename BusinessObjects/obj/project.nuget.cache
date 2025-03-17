@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KuxYITuGOnU=",
+  "dgSpecHash": "JcsHC+v7dQI=",
   "success": true,
-  "projectFilePath": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\BusinessObjects\\BusinessObjects.csproj",
+  "projectFilePath": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\BusinessObjects\\BusinessObjects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

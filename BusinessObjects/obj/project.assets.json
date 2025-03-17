@@ -4326,11 +4326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\BusinessObjects\\BusinessObjects.csproj",
+      "projectUniqueName": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\BusinessObjects\\BusinessObjects.csproj",
       "projectName": "BusinessObjects",
-      "projectPath": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\BusinessObjects\\BusinessObjects.csproj",
+      "projectPath": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\BusinessObjects\\BusinessObjects.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\Human_Resource_Management_System\\BusinessObjects\\obj\\",
+      "outputPath": "D:\\chuyên ngành\\kì 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\BusinessObjects\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
