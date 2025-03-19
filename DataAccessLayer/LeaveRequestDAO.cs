@@ -36,5 +36,14 @@ namespace DataAccessLayer
             return leaveRequests; // Trả về danh sách đầy đủ các trường
         }
 
+        public void UpdateLeaveRequestStatus(int leaveId, string status)
+        {
+            var leaveRequest = _context.LeaveRequests.FirstOrDefault(lr => lr.LeaveId == leaveId);
+            if (leaveRequest != null)
+            {
+                leaveRequest.Status = status;
+                _context.SaveChanges();
+            }
+        }
     }
 }

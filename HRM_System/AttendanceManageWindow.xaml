@@ -17,21 +17,22 @@
         </Grid.RowDefinitions>
         
         <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
-            <Button Content="Report Attendance" Click="ReportAttendance_Click" Margin="5,0,0,0"/>
+            <Button Content="Báo cáo chấm công" Click="ReportAttendance_Click" Margin="5,0,0,0"/>
         </StackPanel>
         
         <DataGrid x:Name="attendanceDataGrid" Grid.Row="1" Margin="0,10,0,10" 
   AutoGenerateColumns="False">
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="Attendance ID" Binding="{Binding AttendanceId}" Width="90"/>
-                <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" Width="80"/>
-                <DataGridTextColumn Header="Full Name" Binding="{Binding Employee.FullName}" Width="120"/>
-                <DataGridTextColumn Header="Work Date" Binding="{Binding WorkDate}" Width="110"/>
-                <DataGridTextColumn Header="CheckInTime" Binding="{Binding CheckInTime}" Width="110"/>
-                <DataGridTextColumn Header="CheckOutTime" Binding="{Binding CheckOutTime}" Width="110"/>
-                <DataGridTextColumn Header="OvertimeHours" Binding="{Binding OvertimeHours}" Width="110"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding LeaveType}" Width="110"/>
-            </DataGrid.Columns>
+           <DataGrid.Columns>
+    <DataGridTextColumn Header="Mã chấm công" Binding="{Binding AttendanceId}" Width="90"/>
+    <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="90"/>
+    <DataGridTextColumn Header="Họ và tên" Binding="{Binding Employee.FullName}" Width="120"/>
+    <DataGridTextColumn Header="Ngày làm việc" Binding="{Binding WorkDate}" Width="110"/>
+    <DataGridTextColumn Header="Giờ vào" Binding="{Binding CheckInTime}" Width="110"/>
+    <DataGridTextColumn Header="Giờ ra" Binding="{Binding CheckOutTime}" Width="110"/>
+    <DataGridTextColumn Header="Giờ làm thêm" Binding="{Binding OvertimeHours}" Width="110"/>
+    <DataGridTextColumn Header="Trạng thái" Binding="{Binding LeaveType}" Width="110"/>
+</DataGrid.Columns>
+
         </DataGrid>
     </Grid>
 </Window>

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using BusinessObjects;
 using Repositories;
 using Services;
 
@@ -51,5 +52,40 @@ namespace HRM_System
             this.Close();
         }
         //test có thể xóa
+
+        private LeaveRequest? selectedLeaveRequest;
+
+        private void leaveRequestDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            selectedLeaveRequest = (LeaveRequest)leaveRequestDataGrid.SelectedItem;
+            if (selectedLeaveRequest != null)
+            {
+                txtLeaveDetails.Text = $"Mã nghỉ: {selectedLeaveRequest.LeaveId}\n" +
+                                        $"Mã nhân viên: {selectedLeaveRequest.EmployeeId}\n" +
+                                        $"Tên nhân viên: {selectedLeaveRequest.Employee.FullName}\n" +
+                                        $"Loại nghỉ: {selectedLeaveRequest.LeaveType}\n" +
+                                        $"Ngày bắt đầu: {selectedLeaveRequest.StartDate}\n" +
+                                        $"Ngày kết thúc: {selectedLeaveRequest.EndDate}\n" +
+                                        $"Trạng thái: {selectedLeaveRequest.Status}";
+            }
+        }
+
+        private void UpdateRefuse_Click(object sender, RoutedEventArgs e)
+        {
+            if (selectedLeaveRequest != null)
+            {
+                _leaveRequestService.UpdateLeaveRequestStatus(selectedLeaveRequest.LeaveId, "Từ chối");
+                LoadLeaveRequests();
+            }
+        }
+
+        private void UpdateApprove_Click(object sender, RoutedEventArgs e)
+        {
+            if (selectedLeaveRequest != null)
+            {
+                _leaveRequestService.UpdateLeaveRequestStatus(selectedLeaveRequest.LeaveId, "Đã duyệt");
+                LoadLeaveRequests();
+            }
+        }
     }
 }

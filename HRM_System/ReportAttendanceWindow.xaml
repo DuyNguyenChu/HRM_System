@@ -15,11 +15,11 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
-            <Button Content="Back" Click="Back_Click" Margin="5,0,0,0" Width="50"/>
+            <Button Content="Quay lại" Click="Back_Click" Margin="5,0,0,0" Width="50"/>
         </StackPanel>
 
  <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,10">
-            <TextBlock Text="Choose Month:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+            <TextBlock Text="Choose tháng:" VerticalAlignment="Center" Margin="0,0,5,0"/>
             <ComboBox x:Name="monthComboBox" Width="60" SelectionChanged="MonthComboBox_SelectionChanged">
                 <ComboBoxItem Content="1" />
                 <ComboBoxItem Content="2" />
@@ -35,7 +35,7 @@
                 <ComboBoxItem Content="12" />
             </ComboBox>
 
-            <TextBlock Text="Choose Year:" VerticalAlignment="Center" Margin="10,0,5,0"/>
+            <TextBlock Text="Chọn năm:" VerticalAlignment="Center" Margin="10,0,5,0"/>
             <ComboBox x:Name="yearComboBox" Width="80" SelectionChanged="YearComboBox_SelectionChanged">
                 <!-- Thêm các năm từ 2000 đến 2025 -->
                 <!--<ComboBoxItem Content="2000"/>
@@ -68,12 +68,12 @@
         </StackPanel>
         <DataGrid x:Name="reportDataGrid" Grid.Row="1" Margin="0,10,0,10" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" Width="120"/>
-                <DataGridTextColumn Header="Full Name" Binding="{Binding Employee.FullName}" Width="150"/>
-                <DataGridTextColumn Header="Work Days" Binding="{Binding WorkDays}" Width="100"/>
-                <DataGridTextColumn Header="On Leave" Binding="{Binding OnLeave}" Width="100"/>
-                <DataGridTextColumn Header="Sick Leave" Binding="{Binding SickLeave}" Width="100"/>
-                <DataGridTextColumn Header="Leave Without Pay" Binding="{Binding LeaveWithoutPay}" Width="120"/>
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="120"/>
+                <DataGridTextColumn Header="Họ và tên" Binding="{Binding Employee.FullName}" Width="150"/>
+                <DataGridTextColumn Header="Số ngày làm việc" Binding="{Binding WorkDays}" Width="100"/>
+                <DataGridTextColumn Header="Số ngày nghỉ phép" Binding="{Binding OnLeave}" Width="120"/>
+                <DataGridTextColumn Header="Số ngày nghỉ ốm" Binding="{Binding SickLeave}" Width="100"/>
+                <DataGridTextColumn Header="Số ngày nghỉ không lương" Binding="{Binding LeaveWithoutPay}" Width="150"/>
             </DataGrid.Columns>
         </DataGrid>
     </Grid>

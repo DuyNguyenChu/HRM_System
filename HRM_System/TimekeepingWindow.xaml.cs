@@ -45,65 +45,68 @@ namespace HRM_System
                 TimeOnly now = TimeOnly.FromDateTime(DateTime.Now);
                 TimeOnly endOfWork = new TimeOnly(17, 0, 0); // Giờ giới hạn chấm công
 
-                // Nếu sau 17:00, không cho phép chấm công
                 if (now > endOfWork)
                 {
                     MessageBox.Show("Đã quá 17:00, không thể chấm công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                // Kiểm tra xem đã chấm công hôm nay chưa
-                bool alreadyCheckedIn = context.Attendances
-                    .Any(a => a.EmployeeId == sessionEmployeeId && a.WorkDate == today);
-                if (alreadyCheckedIn)
+                if (context.Attendances.Any(a => a.EmployeeId == sessionEmployeeId && a.WorkDate == today))
                 {
                     MessageBox.Show("Bạn đã chấm công rồi!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Warning);
                     return;
                 }
 
-                // Nếu chưa chấm công, thêm mới
-                var newTimeKeeping = new Attendance
+                using (var transaction = context.Database.BeginTransaction())
                 {
-                    EmployeeId = sessionEmployeeId,
-                    WorkDate = today,
-                    CheckInTime = now,
-                    CheckOutTime = null,
-                    OvertimeHours = null,
-                    LeaveType = "Đi làm"
-                };
-                context.Attendances.Add(newTimeKeeping);
-                context.SaveChanges();
+                    try
+                    {
+                        var newTimeKeeping = new Attendance
+                        {
+                            EmployeeId = sessionEmployeeId,
+                            WorkDate = today,
+                            CheckInTime = now,
+                            CheckOutTime = null,
+                            OvertimeHours = null,
+                            LeaveType = "Đi làm"
+                        };
 
-                MessageBox.Show("Chấm công thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                        context.Attendances.Add(newTimeKeeping);
+                        context.SaveChanges(); // Đảm bảo AttendanceId đã có
 
-                // --------------------------------------------------------------------------------------------------------
-                // Lấy UserId từ EmployeeId
-                var user = context.Users.FirstOrDefault(u => u.EmployeeId == sessionEmployeeId);
-                if (user == null)
-                {
-                    MessageBox.Show("Không tìm thấy tài khoản người dùng cho nhân viên này!",
-                        "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
+                        var user = context.Users.FirstOrDefault(u => u.EmployeeId == sessionEmployeeId);
+                        if (user == null)
+                        {
+                            throw new Exception("Không tìm thấy tài khoản người dùng.");
+                        }
+
+                        var log = new ActivityLog
+                        {
+                            UserId = user.UserId,
+                            Action = "CREATE",
+                            TableName = "Attendance",
+                            TablePrimaryKey = "AttendanceId",
+                            RecordId = newTimeKeeping.AttendanceId,
+                            Details = "Tạo chấm công mới trong ngày",
+                            Timestamp = DateTime.Now,
+                        };
+
+                        context.ActivityLogs.Add(log);
+                        context.SaveChanges();
+
+                        transaction.Commit();
+                        MessageBox.Show("Chấm công thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                        LoadTimeKeepings();
+                    }
+                    catch (Exception ex)
+                    {
+                        transaction.Rollback();
+                        MessageBox.Show($"Lỗi: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
                 }
-                // Create new activity log
-                var takeLeave = new ActivityLog
-                {
-                    UserId = user.UserId, // Gán UserId lấy từ User
-                    Action = "CREATE",
-                    TableName = "Attendance",
-                    TablePrimaryKey = "AttendanceId",
-                    RecordId = newTimeKeeping.AttendanceId,
-                    Details = "Tạo chấm công mới trong ngày",
-                    Timestamp = DateTime.Now,
-                };
-
-                // Add activity log vào context
-                context.ActivityLogs.Add(takeLeave);
-                // --------------------------------------------------------------------------------------------------------
-
-                LoadTimeKeepings(); // Refresh danh sách
             }
         }
+
 
 
 
@@ -139,38 +142,55 @@ namespace HRM_System
                         attendance.OvertimeHours = 0; // Nếu checkout trước 17:00 thì không có giờ làm thêm
                     }
 
+                    // Cập nhật attendance vào database
                     _attendanceService.UpdateAttendance(attendance);
-                    MessageBox.Show("Cập nhật giờ check-out thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
-                    
-                    
-                    // --------------------------------------------------------------------------------------------------------
-                    // Lấy UserId từ EmployeeId
-                    var user = context.Users.FirstOrDefault(u => u.EmployeeId == sessionEmployeeId);
-                    if (user == null)
-                    {
-                        MessageBox.Show("Không tìm thấy tài khoản người dùng cho nhân viên này!",
-                            "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
-                        return;
-                    }
-                    // Create new activity log
-                    var takeLeave = new ActivityLog
-                    {
-                        UserId = user.UserId, // Gán UserId lấy từ User
-                        Action = "UPDATE",
-                        TableName = "Attendance",
-                        TablePrimaryKey = "AttendanceId",
-                        RecordId = attendance.AttendanceId,
-                        Details = "Cập nhật thời gian chấm công ra về",
-                        Timestamp = DateTime.Now,
-                    };
 
-                    // Add activity log vào context
-                    context.ActivityLogs.Add(takeLeave);
-                    // --------------------------------------------------------------------------------------------------------
-                   
-                    
-                    // 🔥 Load lại dữ liệu để cập nhật giao diện ngay lập tức
-                    LoadTimeKeepings();
+                    // 🔥 Thêm transaction để đảm bảo cả 2 hành động đều được thực thi
+                    using (var transaction = context.Database.BeginTransaction())
+                    {
+                        try
+                        {
+                            // Lấy UserId từ EmployeeId
+                            var user = context.Users.FirstOrDefault(u => u.EmployeeId == sessionEmployeeId);
+                            if (user == null)
+                            {
+                                MessageBox.Show("Không tìm thấy tài khoản người dùng cho nhân viên này!",
+                                    "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                                return;
+                            }
+
+                            // Create new activity log
+                            var CheckOut = new ActivityLog
+                            {
+                                UserId = user.UserId, // Gán UserId lấy từ User
+                                Action = "UPDATE",
+                                TableName = "Attendance",
+                                TablePrimaryKey = "AttendanceId",
+                                RecordId = attendance.AttendanceId,
+                                Details = "Cập nhật thời gian chấm công ra về",
+                                Timestamp = DateTime.Now,
+                            };
+
+                            // Add activity log vào context
+                            context.ActivityLogs.Add(CheckOut);
+
+                            // 🔥 Lưu cả attendance và activity log
+                            context.SaveChanges();
+
+                            // Commit transaction
+                            transaction.Commit();
+
+                            MessageBox.Show("Cập nhật giờ check-out thành công!", "Thông báo", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                            // Load lại dữ liệu để cập nhật giao diện ngay lập tức
+                            LoadTimeKeepings();
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+                            MessageBox.Show($"Lỗi khi cập nhật log chấm công: {ex.Message}", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
+                        }
+                    }
                 }
                 else
                 {
@@ -178,6 +198,7 @@ namespace HRM_System
                 }
             }
         }
+
 
 
         private void AddLeave_Click(object sender, RoutedEventArgs e)
@@ -193,7 +214,7 @@ namespace HRM_System
             // Convert selected dates to DateOnly
             DateOnly startDate = DateOnly.FromDateTime(startdatePicker.SelectedDate.Value);
             DateOnly endDate = DateOnly.FromDateTime(enddatePicker.SelectedDate.Value);
-
+            DateOnly today = DateOnly.FromDateTime(DateTime.Today);
             // Validate date range
             if (endDate < startDate)
             {
@@ -201,7 +222,12 @@ namespace HRM_System
                     "Lỗi ngày tháng", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-
+            if (endDate < today || startDate < today)
+            {
+                MessageBox.Show("Ngày đã qua không thể xin nghỉ phép!",
+                    "Lỗi ngày tháng", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
             // Get selected leave type
             string leaveType = ((ComboBoxItem)leaveTypeComboBox.SelectedItem).Content.ToString();
 

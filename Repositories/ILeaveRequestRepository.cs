@@ -13,5 +13,6 @@ namespace Repositories
 
         List<LeaveRequest> GetLeaveRequestByYear(int year);
 
+        void UpdateLeaveRequestStatus(int leaveId, string status);
     }
 }

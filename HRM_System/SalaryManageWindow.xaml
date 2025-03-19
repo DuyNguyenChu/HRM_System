@@ -10,16 +10,17 @@
         <DataGrid x:Name="salaryDataGrid" Grid.Row="1" Margin="0,10,0,10" 
       AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Salary ID" Binding="{Binding SalaryId}" Width="80"/>
-                <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" Width="80"/>
-                <DataGridTextColumn Header="Full Name" Binding="{Binding Employee.FullName}" Width="120"/>
-                <DataGridTextColumn Header="Basic Salary" Binding="{Binding BasicSalary}" Width="110"/>
-                <DataGridTextColumn Header="Allowance" Binding="{Binding Allowance}" Width="110"/>
-                <DataGridTextColumn Header="Bonus" Binding="{Binding Bonus}" Width="110"/>
-                <DataGridTextColumn Header="Deduction" Binding="{Binding Deduction}" Width="110"/>
-                <DataGridTextColumn Header="Total Income" Binding="{Binding TotalIncome}" Width="110"/>
-                <DataGridTextColumn Header="PayDate" Binding="{Binding PayDate}" Width="110"/>
+                <DataGridTextColumn Header="Mã lương" Binding="{Binding SalaryId}" Width="80"/>
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="80"/>
+                <DataGridTextColumn Header="Họ và tên" Binding="{Binding Employee.FullName}" Width="120"/>
+                <DataGridTextColumn Header="Lương cơ bản" Binding="{Binding BasicSalary}" Width="110"/>
+                <DataGridTextColumn Header="Phụ cấp" Binding="{Binding Allowance}" Width="110"/>
+                <DataGridTextColumn Header="Thưởng" Binding="{Binding Bonus}" Width="110"/>
+                <DataGridTextColumn Header="Khấu trừ" Binding="{Binding Deduction}" Width="110"/>
+                <DataGridTextColumn Header="Tổng thu nhập" Binding="{Binding TotalIncome}" Width="110"/>
+                <DataGridTextColumn Header="Ngày trả lương" Binding="{Binding PayDate}" Width="110"/>
             </DataGrid.Columns>
         </DataGrid>
+
     </Grid>
 </Window>

@@ -13,5 +13,7 @@ namespace Services
 
         List<LeaveRequest> GetLeaveRequestByYear(int year);
 
+        void UpdateLeaveRequestStatus(int leaveId, string status);
+
     }
 }

@@ -1,12 +1,180 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dohui\\source\\repos\\HRM_System\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\timekeepingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\timekeepingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\salarymanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\salarymanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\reportattendancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\reportattendancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\lrtrackingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\lrtrackingwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\leaverequestmanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\leaverequestmanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\attendancemanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\attendancemanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\activitylogmanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\activitylogmanagewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\hrm_system\\leaverequestmanagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\leaverequestmanagewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\dohui\\source\\repos\\hrm_system\\dataaccesslayer\\leaverequestdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\leaverequestdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaryManageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\SalaryManageWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\SalaryManageWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\SalaryManageWindow.xaml",
+              "RelativeToolTip": "HRM_System\\SalaryManageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T10:49:50.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportAttendanceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\ReportAttendanceWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\ReportAttendanceWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\ReportAttendanceWindow.xaml",
+              "RelativeToolTip": "HRM_System\\ReportAttendanceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T10:47:59.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\MainWindow.xaml",
+              "RelativeToolTip": "HRM_System\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T10:47:59.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LRTrackingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\LRTrackingWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\LRTrackingWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\LRTrackingWindow.xaml",
+              "RelativeToolTip": "HRM_System\\LRTrackingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T10:45:39.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttendanceManageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\AttendanceManageWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\AttendanceManageWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\AttendanceManageWindow.xaml",
+              "RelativeToolTip": "HRM_System\\AttendanceManageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T10:43:24.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TimekeepingWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\TimekeepingWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\TimekeepingWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\TimekeepingWindow.xaml",
+              "RelativeToolTip": "HRM_System\\TimekeepingWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T02:36:35.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActivityLogManageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\ActivityLogManageWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\ActivityLogManageWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\ActivityLogManageWindow.xaml",
+              "RelativeToolTip": "HRM_System\\ActivityLogManageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T02:55:53.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeaveRequestManageWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\LeaveRequestManageWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\LeaveRequestManageWindow.xaml",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\LeaveRequestManageWindow.xaml",
+              "RelativeToolTip": "HRM_System\\LeaveRequestManageWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-17T01:59:54.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeaveRequestManageWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\LeaveRequestManageWindow.xaml.cs",
+              "RelativeDocumentMoniker": "HRM_System\\LeaveRequestManageWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\HRM_System\\LeaveRequestManageWindow.xaml.cs",
+              "RelativeToolTip": "HRM_System\\LeaveRequestManageWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T02:46:05.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LeaveRequestDAO.cs",
+              "DocumentMoniker": "C:\\Users\\dohui\\source\\repos\\HRM_System\\DataAccessLayer\\LeaveRequestDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\LeaveRequestDAO.cs",
+              "ToolTip": "C:\\Users\\dohui\\source\\repos\\HRM_System\\DataAccessLayer\\LeaveRequestDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\LeaveRequestDAO.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T02:46:23.415Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

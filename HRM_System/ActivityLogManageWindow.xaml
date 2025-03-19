@@ -23,16 +23,17 @@
         <DataGrid x:Name="activityLogDataGrid" Grid.Row="1" Margin="0,10,0,10" 
   AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ActivityLog ID" Binding="{Binding ActivityLogId}" Width="100"/>
-                <DataGridTextColumn Header="User ID" Binding="{Binding UserId}" Width="60"/>
-                <DataGridTextColumn Header="Role" Binding="{Binding User.Role}" Width="80"/>
-                <DataGridTextColumn Header="Action" Binding="{Binding Action}" Width="80"/>
-                <DataGridTextColumn Header="Table Name" Binding="{Binding TableName}" Width="110"/>
-                <DataGridTextColumn Header="Table Primary Key" Binding="{Binding TablePrimaryKey}" Width="110"/>
-                <DataGridTextColumn Header="Record ID" Binding="{Binding RecordId}" Width="110"/>
-                <DataGridTextColumn Header="Details" Binding="{Binding Details}" Width="150"/>
-                <DataGridTextColumn Header="Timestamp" Binding="{Binding Timestamp}" Width="150"/>
+                <DataGridTextColumn Header="ID Nhật ký hoạt động" Binding="{Binding ActivityLogId}" Width="100"/>
+                <DataGridTextColumn Header="ID Người dùng" Binding="{Binding UserId}" Width="60"/>
+                <DataGridTextColumn Header="Vai trò" Binding="{Binding User.Role}" Width="80"/>
+                <DataGridTextColumn Header="Hành động" Binding="{Binding Action}" Width="80"/>
+                <DataGridTextColumn Header="Tên bảng" Binding="{Binding TableName}" Width="110"/>
+                <DataGridTextColumn Header="Khóa chính bảng" Binding="{Binding TablePrimaryKey}" Width="110"/>
+                <DataGridTextColumn Header="ID Bản ghi" Binding="{Binding RecordId}" Width="80"/>
+                <DataGridTextColumn Header="Chi tiết" Binding="{Binding Details}" Width="180"/>
+                <DataGridTextColumn Header="Thời gian" Binding="{Binding Timestamp}" Width="150"/>
             </DataGrid.Columns>
+
         </DataGrid>
     </Grid>
 </Window>

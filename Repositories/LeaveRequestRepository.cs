@@ -23,5 +23,10 @@ namespace Repositories
         {
             return _leaveRequestDAO.GetLeaveRequestByYear( year);
         }
+
+        public void UpdateLeaveRequestStatus(int leaveId, string status)
+        {
+            _leaveRequestDAO.UpdateLeaveRequestStatus(leaveId, status);
+        }
     }
 }

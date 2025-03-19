@@ -22,5 +22,11 @@ namespace Services
         {
             return _leaveRequestRepository.GetLeaveRequestByYear(year);
         }
+
+        public void UpdateLeaveRequestStatus(int leaveId, string status)
+        {
+            _leaveRequestRepository.UpdateLeaveRequestStatus(leaveId, status);
+        }
+
     }
 }

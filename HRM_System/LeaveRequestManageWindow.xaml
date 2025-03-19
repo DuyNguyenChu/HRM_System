@@ -18,22 +18,38 @@
 
         <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
             <!-- TEST/ Có thể xóa -->
-            <Button Content="Time Keeping" Click="test_Click" Margin="5,0,0,0"/>
+            <Button Content="Hệ thống chấm công nhân viên" Click="test_Click" Margin="5,0,0,0"/>
             <!-- TEST/ Có thể xóa -->
-            <Button Content="Leave Request Tracking" Click="LRTracking_Click" Margin="5,0,0,0"/>
+            <Button Content="Theo dõi nghỉ phép" Click="LRTracking_Click" Margin="5,0,0,0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Margin="10">
+            <TextBlock Text="Chi tiết yêu cầu nghỉ" FontWeight="Bold"/>
+            <TextBlock x:Name="txtLeaveDetails" Text="Chưa có dữ liệu" TextWrapping="Wrap"/>
         </StackPanel>
 
         <DataGrid x:Name="leaveRequestDataGrid" Grid.Row="1" Margin="0,10,0,10" 
-AutoGenerateColumns="False">
+AutoGenerateColumns="False" SelectionChanged="leaveRequestDataGrid_SelectionChanged">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Leave ID" Binding="{Binding LeaveId}" Width="80"/>
-                <DataGridTextColumn Header="Employee ID" Binding="{Binding EmployeeId}" Width="80"/>
-                <DataGridTextColumn Header="Full Name" Binding="{Binding Employee.FullName}" Width="120"/>
-                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="110"/>
-                <DataGridTextColumn Header="End Date" Binding="{Binding EndDate}" Width="110"/>
-                <DataGridTextColumn Header="Leave Type" Binding="{Binding LeaveType}" Width="120"/>
-                <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="110"/>
+                <DataGridTextColumn Header="Mã nghỉ" Binding="{Binding LeaveId}" Width="80"/>
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="90"/>
+                <DataGridTextColumn Header="Tên nhân viên" Binding="{Binding Employee.FullName}" Width="120"/>
+                <DataGridTextColumn Header="Ngày bắt đầu" Binding="{Binding StartDate}" Width="110"/>
+                <DataGridTextColumn Header="Ngày kết thúc" Binding="{Binding EndDate}" Width="110"/>
+                <DataGridTextColumn Header="Loại nghỉ" Binding="{Binding LeaveType}" Width="120"/>
+                <DataGridTextColumn Header="Trạng thái" Binding="{Binding Status}" Width="110"/>
             </DataGrid.Columns>
         </DataGrid>
+
+        <Grid Grid.Row="2">
+            <!-- Action Buttons -->
+            <StackPanel Orientation="Vertical" Grid.Column="1" HorizontalAlignment="Center">
+                <TextBlock Text="Hành động" FontWeight="Bold" TextAlignment="Center"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Từ Chối" Click="UpdateRefuse_Click" Margin="5,0,0,0" Width="200" Height="50"/>
+                    <Button Content="Duyệt" Click="UpdateApprove_Click" Margin="5,0,0,0" Width="200" Height="50"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
