@@ -19,5 +19,6 @@ public partial class Salary
 
     public DateOnly PayDate { get; set; }
 
+    public decimal TotalIncome => BasicSalary + (Allowance ?? 0) + (Bonus ?? 0) - (Deduction ?? 0);
     public virtual Employee Employee { get; set; } = null!;
 }

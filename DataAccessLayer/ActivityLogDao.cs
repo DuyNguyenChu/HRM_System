@@ -5,11 +5,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using BusinessObjects;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer
 {
-    public class ActivityLogDao
+    public class ActivityLogDAO
     {
+        private readonly HrmSystemContext _context;
+
+        public ActivityLogDAO()
+        {
+            _context = new HrmSystemContext();
+        }
+
+        public List<ActivityLog> GetAllActivityLogs()
+        {
+            return _context.ActivityLogs.Include(role => role.User).ToList();
+        }
+
         public static List<ActivityLog> GetActivityLog()
         {
             try

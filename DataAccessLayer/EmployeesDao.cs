@@ -67,7 +67,7 @@ namespace DataAccessLayer
                 MessageBox.Show("Thêm thành công!", "Notification", MessageBoxButton.OK, MessageBoxImage.Information);
                 context.SaveChanges();
 
-                ActivityLogDao.AddActivityLog(new ActivityLog
+                ActivityLogDAO.AddActivityLog(new ActivityLog
                 {
                     UserId = 1,
                     Action = "Thêm nhận viên",
@@ -94,7 +94,7 @@ namespace DataAccessLayer
                 MessageBox.Show("Sửa thành công!", "Notification", MessageBoxButton.OK, MessageBoxImage.Information);
                 context.SaveChanges();
 
-                ActivityLogDao.AddActivityLog(new ActivityLog
+                ActivityLogDAO.AddActivityLog(new ActivityLog
                 {
                     UserId = 1,
                     Action = "Sửa nhận viên",
@@ -132,7 +132,7 @@ namespace DataAccessLayer
                     MessageBox.Show("Xóa thành công!");
                     context.SaveChanges();
 
-                    ActivityLogDao.AddActivityLog(new ActivityLog
+                    ActivityLogDAO.AddActivityLog(new ActivityLog
                     {
                         UserId = 1,
                         Action = "Xóa nhận viên",

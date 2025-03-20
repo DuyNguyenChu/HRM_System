@@ -1,0 +1,38 @@
+﻿<Window x:Class="HRM_System.AttendanceManageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HRM_System"
+        mc:Ignorable="d"
+        Title="AttendanceManageWindow" Height="450" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Search & Header -->
+            <RowDefinition Height="*"/>
+            <!-- Attendance List -->
+            <RowDefinition Height="Auto"/>
+            <!-- Add/Delete Section -->
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
+            <Button Content="Báo cáo chấm công" Click="ReportAttendance_Click" Margin="5,0,0,0"/>
+        </StackPanel>
+        
+        <DataGrid x:Name="attendanceDataGrid" Grid.Row="1" Margin="0,10,0,10" 
+  AutoGenerateColumns="False">
+           <DataGrid.Columns>
+    <DataGridTextColumn Header="Mã chấm công" Binding="{Binding AttendanceId}" Width="90"/>
+    <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="90"/>
+    <DataGridTextColumn Header="Họ và tên" Binding="{Binding Employee.FullName}" Width="120"/>
+    <DataGridTextColumn Header="Ngày làm việc" Binding="{Binding WorkDate}" Width="110"/>
+    <DataGridTextColumn Header="Giờ vào" Binding="{Binding CheckInTime}" Width="110"/>
+    <DataGridTextColumn Header="Giờ ra" Binding="{Binding CheckOutTime}" Width="110"/>
+    <DataGridTextColumn Header="Giờ làm thêm" Binding="{Binding OvertimeHours}" Width="110"/>
+    <DataGridTextColumn Header="Trạng thái" Binding="{Binding LeaveType}" Width="110"/>
+</DataGrid.Columns>
+
+        </DataGrid>
+    </Grid>
+</Window>

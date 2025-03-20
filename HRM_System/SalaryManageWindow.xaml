@@ -1,0 +1,26 @@
+﻿<Window x:Class="HRM_System.SalaryManageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HRM_System"
+        mc:Ignorable="d"
+        Title="SalaryManageWindow" Height="500" Width="1000">
+    <Grid Margin="10">
+        <DataGrid x:Name="salaryDataGrid" Grid.Row="1" Margin="0,10,0,10" 
+      AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Mã lương" Binding="{Binding SalaryId}" Width="80"/>
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="90"/>
+                <DataGridTextColumn Header="Họ và tên" Binding="{Binding Employee.FullName}" Width="120"/>
+                <DataGridTextColumn Header="Lương cơ bản" Binding="{Binding BasicSalary}" Width="110"/>
+                <DataGridTextColumn Header="Phụ cấp" Binding="{Binding Allowance}" Width="110"/>
+                <DataGridTextColumn Header="Thưởng" Binding="{Binding Bonus}" Width="110"/>
+                <DataGridTextColumn Header="Khấu trừ" Binding="{Binding Deduction}" Width="110"/>
+                <DataGridTextColumn Header="Tổng thu nhập" Binding="{Binding TotalIncome}" Width="110"/>
+                <DataGridTextColumn Header="Ngày trả lương" Binding="{Binding PayDate}" Width="110"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

@@ -10,12 +10,22 @@ namespace Repositories
 {
     public class ActivityLogRepository : IActivityLogRepository
     {
-        public void AddActivityLog(ActivityLog p) => ActivityLogDao.AddActivityLog(p);
 
-        public void DeleteActivityLog(ActivityLog p) => ActivityLogDao.DeleteActivityLog(p);
+        private readonly ActivityLogDAO _activityLogDAO;
+        public ActivityLogRepository()
+        {
+            _activityLogDAO = new ActivityLogDAO();
+        }
 
-        public List<ActivityLog> GetActivityLog() => ActivityLogDao.GetActivityLog();
+        public void AddActivityLog(ActivityLog p) => ActivityLogDAO.AddActivityLog(p);
 
-        public List<ActivityLog> SearchActivityLog(string keyword) => ActivityLogDao.SearchActivityLog(keyword);
+        public void DeleteActivityLog(ActivityLog p) => ActivityLogDAO.DeleteActivityLog(p);
+
+        public List<ActivityLog> GetActivityLog() => ActivityLogDAO.GetActivityLog();
+
+        public List<ActivityLog> SearchActivityLog(string keyword) => ActivityLogDAO.SearchActivityLog(keyword);
+
+        public List<ActivityLog> GetAllActivityLogs() => _activityLogDAO.GetAllActivityLogs();
+
     }
 }
