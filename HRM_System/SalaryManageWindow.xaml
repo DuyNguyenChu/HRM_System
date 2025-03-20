@@ -11,7 +11,7 @@
       AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Mã lương" Binding="{Binding SalaryId}" Width="80"/>
-                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="80"/>
+                <DataGridTextColumn Header="Mã nhân viên" Binding="{Binding EmployeeId}" Width="90"/>
                 <DataGridTextColumn Header="Họ và tên" Binding="{Binding Employee.FullName}" Width="120"/>
                 <DataGridTextColumn Header="Lương cơ bản" Binding="{Binding BasicSalary}" Width="110"/>
                 <DataGridTextColumn Header="Phụ cấp" Binding="{Binding Allowance}" Width="110"/>
