@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\chuyên ngành\kì 5\PRN212\Project_PRN212\PRN_Project\HRM_System\HRM_System\obj\Debug\net8.0-windows\
+C:\Users\dohui\Source\Repos\HRM_System\HRM_System\obj\Debug\net8.0-windows\
 HRM_System
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\chuyên ngành\kì 5\PRN212\Project_PRN212\PRN_Project\HRM_System\HRM_System\App.xaml
+C:\Users\dohui\Source\Repos\HRM_System\HRM_System\App.xaml
 4386258364
 
 8237019316
-236656521965
+199531338251
 ActivityLogControl.xaml;DepartmentControl.xaml;EmployeeControl.xaml;MainWindow.xaml;
 
-False
+True
 
