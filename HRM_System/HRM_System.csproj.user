@@ -5,6 +5,9 @@
     <Compile Update="ActivityLogControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="report.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="ActivityLogControl.xaml">
@@ -17,6 +20,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="report.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

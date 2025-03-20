@@ -1,22 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\",
+  "WorkspaceRootPath": "D:\\HRM_System-master\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\prn212\\project_prn212\\prn_project\\hrm_system\\hrm_system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\report.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\report.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\prn212\\project_prn212\\prn_project\\hrm_system\\hrm_system\\activitylogcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\activitylogcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\hrm_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\hrm_system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\prn212\\project_prn212\\prn_project\\hrm_system\\hrm_system\\employeecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\report.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\report.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CA2258-381E-4DC2-A386-B1B5146CF5E8}|Services\\Services.csproj|d:\\hrm_system-master\\services\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CA2258-381E-4DC2-A386-B1B5146CF5E8}|Services\\Services.csproj|solutionrelative:services\\iemployeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\employeecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\employeecontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\employeecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\employeecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\prn212\\project_prn212\\prn_project\\hrm_system\\hrm_system\\departmentcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|d:\\hrm_system-master\\dataaccesslayer\\employeesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\employeesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F97E319-427C-4F8A-89E5-4ED25DDF443F}|Repositories\\Repositories.csproj|d:\\hrm_system-master\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F97E319-427C-4F8A-89E5-4ED25DDF443F}|Repositories\\Repositories.csproj|solutionrelative:repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F97E319-427C-4F8A-89E5-4ED25DDF443F}|Repositories\\Repositories.csproj|d:\\hrm_system-master\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F97E319-427C-4F8A-89E5-4ED25DDF443F}|Repositories\\Repositories.csproj|solutionrelative:repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|d:\\hrm_system-master\\dataaccesslayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|d:\\hrm_system-master\\businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|d:\\hrm_system-master\\businessobjects\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|d:\\hrm_system-master\\businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\businessobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|d:\\hrm_system-master\\dataaccesslayer\\activitylogdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\activitylogdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3CA2258-381E-4DC2-A386-B1B5146CF5E8}|Services\\Services.csproj|d:\\hrm_system-master\\services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3CA2258-381E-4DC2-A386-B1B5146CF5E8}|Services\\Services.csproj|solutionrelative:services\\employeeservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|d:\\hrm_system-master\\dataaccesslayer\\hrmsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\hrmsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\departmentcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\departmentcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\departmentcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\departmentcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|d:\\hrm_system-master\\dataaccesslayer\\departmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\departmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\activitylogcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\activitylogcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|d:\\hrm_system-master\\businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|d:\\hrm_system-master\\businessobjects\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|d:\\hrm_system-master\\hrm_system\\activitylogcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\activitylogcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,54 +114,346 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeControl.xaml.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\EmployeeControl.xaml.cs",
+              "RelativeDocumentMoniker": "HRM_System\\EmployeeControl.xaml.cs",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\EmployeeControl.xaml.cs",
+              "RelativeToolTip": "HRM_System\\EmployeeControl.xaml.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAkwAABAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:46:02.07Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeControl.xaml",
-              "DocumentMoniker": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\EmployeeControl.xaml",
-              "RelativeDocumentMoniker": "HRM_System\\EmployeeControl.xaml",
-              "ToolTip": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\EmployeeControl.xaml",
-              "RelativeToolTip": "HRM_System\\EmployeeControl.xaml",
+              "Title": "report.xaml",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\report.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\report.xaml",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\report.xaml",
+              "RelativeToolTip": "HRM_System\\report.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T13:43:58.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentControl.xaml",
-              "DocumentMoniker": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\DepartmentControl.xaml",
-              "RelativeDocumentMoniker": "HRM_System\\DepartmentControl.xaml",
-              "ToolTip": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\DepartmentControl.xaml",
-              "RelativeToolTip": "HRM_System\\DepartmentControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T13:43:57.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ActivityLogControl.xaml",
-              "DocumentMoniker": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\ActivityLogControl.xaml",
-              "RelativeDocumentMoniker": "HRM_System\\ActivityLogControl.xaml",
-              "ToolTip": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\ActivityLogControl.xaml",
-              "RelativeToolTip": "HRM_System\\ActivityLogControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T13:43:56.175Z",
+              "WhenOpened": "2025-03-20T14:54:21.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\App.xaml",
-              "RelativeDocumentMoniker": "HRM_System\\App.xaml",
-              "ToolTip": "D:\\chuy\u00EAn ng\u00E0nh\\k\u00EC 5\\PRN212\\Project_PRN212\\PRN_Project\\HRM_System\\HRM_System\\App.xaml*",
-              "RelativeToolTip": "HRM_System\\App.xaml*",
+              "Title": "report.xaml.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\report.xaml.cs",
+              "RelativeDocumentMoniker": "HRM_System\\report.xaml.cs",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\report.xaml.cs",
+              "RelativeToolTip": "HRM_System\\report.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAIA/wEgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:59:01.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\MainWindow.xaml",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\MainWindow.xaml",
+              "RelativeToolTip": "HRM_System\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-17T13:42:44.763Z",
+              "WhenOpened": "2025-03-20T14:45:41.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HRM_System",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\HRM_System.csproj",
+              "RelativeDocumentMoniker": "HRM_System\\HRM_System.csproj",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\HRM_System.csproj",
+              "RelativeToolTip": "HRM_System\\HRM_System.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T16:25:57.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeControl.xaml",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\EmployeeControl.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\EmployeeControl.xaml",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\EmployeeControl.xaml",
+              "RelativeToolTip": "HRM_System\\EmployeeControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T14:45:39.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeesDao.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\DataAccessLayer\\EmployeesDao.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EmployeesDao.cs",
+              "ToolTip": "D:\\HRM_System-master\\DataAccessLayer\\EmployeesDao.cs",
+              "RelativeToolTip": "DataAccessLayer\\EmployeesDao.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:47:05.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeServices.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\Services\\IEmployeeServices.cs",
+              "RelativeDocumentMoniker": "Services\\IEmployeeServices.cs",
+              "ToolTip": "D:\\HRM_System-master\\Services\\IEmployeeServices.cs",
+              "RelativeToolTip": "Services\\IEmployeeServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T16:08:54.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\HRM_System-master\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:19:58.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\HRM_System-master\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T16:14:00.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HRM_System-master\\DataAccessLayer\\appsettings.json",
+              "RelativeDocumentMoniker": "DataAccessLayer\\appsettings.json",
+              "ToolTip": "D:\\HRM_System-master\\DataAccessLayer\\appsettings.json",
+              "RelativeToolTip": "DataAccessLayer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T16:25:32.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\BusinessObjects\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\ActivityLog.cs",
+              "ToolTip": "D:\\HRM_System-master\\BusinessObjects\\ActivityLog.cs",
+              "RelativeToolTip": "BusinessObjects\\ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T16:33:03.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HRM_System-master\\BusinessObjects\\appsettings.json",
+              "RelativeDocumentMoniker": "BusinessObjects\\appsettings.json",
+              "ToolTip": "D:\\HRM_System-master\\BusinessObjects\\appsettings.json",
+              "RelativeToolTip": "BusinessObjects\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T15:50:11.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\App.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\App.xaml",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\App.xaml",
+              "RelativeToolTip": "HRM_System\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T14:45:46.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ActivityLogDao.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\DataAccessLayer\\ActivityLogDao.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\ActivityLogDao.cs",
+              "ToolTip": "D:\\HRM_System-master\\DataAccessLayer\\ActivityLogDao.cs",
+              "RelativeToolTip": "DataAccessLayer\\ActivityLogDao.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwFoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:47:25.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BusinessObjects",
+              "DocumentMoniker": "D:\\HRM_System-master\\BusinessObjects\\BusinessObjects.csproj",
+              "RelativeDocumentMoniker": "BusinessObjects\\BusinessObjects.csproj",
+              "ToolTip": "D:\\HRM_System-master\\BusinessObjects\\BusinessObjects.csproj",
+              "RelativeToolTip": "BusinessObjects\\BusinessObjects.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-20T15:12:58.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeServices.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\Services\\EmployeeServices.cs",
+              "RelativeDocumentMoniker": "Services\\EmployeeServices.cs",
+              "ToolTip": "D:\\HRM_System-master\\Services\\EmployeeServices.cs",
+              "RelativeToolTip": "Services\\EmployeeServices.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T16:08:57.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HrmSystemContext.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\DataAccessLayer\\HrmSystemContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\HrmSystemContext.cs",
+              "ToolTip": "D:\\HRM_System-master\\DataAccessLayer\\HrmSystemContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\HrmSystemContext.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:09:01.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DepartmentControl.xaml",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\DepartmentControl.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\DepartmentControl.xaml",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\DepartmentControl.xaml",
+              "RelativeToolTip": "HRM_System\\DepartmentControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T14:45:33.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartmentControl.xaml.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\DepartmentControl.xaml.cs",
+              "RelativeDocumentMoniker": "HRM_System\\DepartmentControl.xaml.cs",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\DepartmentControl.xaml.cs",
+              "RelativeToolTip": "HRM_System\\DepartmentControl.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwEUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:46:00.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DepartmentDao.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\DataAccessLayer\\DepartmentDao.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DepartmentDao.cs",
+              "ToolTip": "D:\\HRM_System-master\\DataAccessLayer\\DepartmentDao.cs",
+              "RelativeToolTip": "DataAccessLayer\\DepartmentDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T15:08:52.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\BusinessObjects\\Employee.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Employee.cs",
+              "ToolTip": "D:\\HRM_System-master\\BusinessObjects\\Employee.cs",
+              "RelativeToolTip": "BusinessObjects\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:46:20.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\BusinessObjects\\Department.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Department.cs",
+              "ToolTip": "D:\\HRM_System-master\\BusinessObjects\\Department.cs",
+              "RelativeToolTip": "BusinessObjects\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:46:17.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ActivityLogControl.xaml",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\ActivityLogControl.xaml",
+              "RelativeDocumentMoniker": "HRM_System\\ActivityLogControl.xaml",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\ActivityLogControl.xaml",
+              "RelativeToolTip": "HRM_System\\ActivityLogControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-20T14:45:44.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "HRM_System\\AssemblyInfo.cs",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\AssemblyInfo.cs",
+              "RelativeToolTip": "HRM_System\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:45:50.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ActivityLogControl.xaml.cs",
+              "DocumentMoniker": "D:\\HRM_System-master\\HRM_System\\ActivityLogControl.xaml.cs",
+              "RelativeDocumentMoniker": "HRM_System\\ActivityLogControl.xaml.cs",
+              "ToolTip": "D:\\HRM_System-master\\HRM_System\\ActivityLogControl.xaml.cs",
+              "RelativeToolTip": "HRM_System\\ActivityLogControl.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:45:58.536Z",
               "EditorCaption": ""
             }
           ]

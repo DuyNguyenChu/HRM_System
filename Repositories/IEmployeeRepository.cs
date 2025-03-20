@@ -14,5 +14,6 @@ namespace Repositories
         void AddEmployee(Employee p);
         void UpdateEmployee(Employee p);
         void DeleteEmployee(Employee p);
+        
     }
 }

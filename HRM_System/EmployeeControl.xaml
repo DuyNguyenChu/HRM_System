@@ -55,7 +55,7 @@
 
             <!-- Gender -->
             <Label Content="Gender" Grid.Row="4"/>
-            <ComboBox Name="txtGender" Grid.Row="4" SelectedItem="{Binding SelectedEmployee.Gender, Mode=TwoWay}" SelectedValuePath="Content" Margin="90,0,40,10">
+            <ComboBox Name="txtGender" Grid.Row="4" SelectedItem="{Binding SelectedEmployee.Gender, Mode=TwoWay}" SelectedValuePath="Content" Margin="90,0,40,10" >
                 <ComboBoxItem Content="Nam"/>
                 <ComboBoxItem Content="Nữ"/>
                 <ComboBoxItem Content="Khác"/>
