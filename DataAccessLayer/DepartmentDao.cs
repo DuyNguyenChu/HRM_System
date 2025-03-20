@@ -41,7 +41,9 @@ namespace DataAccessLayer
 
                 keyword = keyword.ToLower().Trim();
                 return context.Departments.Where(b =>
-                                    (b.DepartmentName != null && b.DepartmentName.ToLower().Contains(keyword))).ToList();
+                                    (b.DepartmentName != null && b.DepartmentName.ToLower().Contains(keyword)) ||
+                                    (b.DepartmentId.ToString().Contains(keyword)) 
+                                    ).ToList();
 
             }
             catch (Exception ex)
@@ -62,7 +64,7 @@ namespace DataAccessLayer
                 MessageBox.Show("Thêm thành công");
                 context.SaveChanges();
 
-                ActivityLogDAO.AddActivityLog(new ActivityLog
+                ActivityLogDao.AddActivityLog(new ActivityLog
                 {
                     UserId = 1,
                     Action = "Thêm phòng ban",
@@ -89,7 +91,7 @@ namespace DataAccessLayer
                 MessageBox.Show("Sửa thành công");
                 context.SaveChanges();
 
-                ActivityLogDAO.AddActivityLog(new ActivityLog
+                ActivityLogDao.AddActivityLog(new ActivityLog
                 {
                     UserId = 1,
                     Action = "Sửa phòng ban",
@@ -124,7 +126,7 @@ namespace DataAccessLayer
                     MessageBox.Show("Xóa thành công");
                     context.SaveChanges();
 
-                    ActivityLogDAO.AddActivityLog(new ActivityLog
+                    ActivityLogDao.AddActivityLog(new ActivityLog
                     {
                         UserId = 1,
                         Action = "Xóa phòng ban",

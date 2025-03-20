@@ -359,7 +359,7 @@ namespace HRM_System
 
         private void testActivity_Click(object sender, RoutedEventArgs e)
         {
-            ActivityLogManageWindow record = new ActivityLogManageWindow();
+            ActivityLogControl record = new ActivityLogControl();
             record.Show();
             this.Close();
         }

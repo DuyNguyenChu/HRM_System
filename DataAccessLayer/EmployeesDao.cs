@@ -40,9 +40,10 @@ namespace DataAccessLayer
 
                 return context.Employees
                     .Where(b =>
+                        (b.EmployeeId.ToString().Contains(keyword)) ||
                         (b.FullName != null && b.FullName.ToLower().Contains(keyword)) ||
                         (b.Address != null && b.Address.ToLower().Contains(keyword)) ||
-                        (b.PhoneNumber != null && b.PhoneNumber.Contains(keyword)) || // Không cần ToLower()
+                        (b.PhoneNumber != null && b.PhoneNumber.Contains(keyword)) ||
                         (b.Email != null && b.Email.ToLower().Contains(keyword)) ||
                         (b.Position != null && b.Position.ToLower().Contains(keyword)) ||
                         (b.Salary.ToString().Contains(keyword)) 
@@ -67,7 +68,7 @@ namespace DataAccessLayer
                 MessageBox.Show("Thêm thành công!", "Notification", MessageBoxButton.OK, MessageBoxImage.Information);
                 context.SaveChanges();
 
-                ActivityLogDAO.AddActivityLog(new ActivityLog
+                ActivityLogDao.AddActivityLog(new ActivityLog
                 {
                     UserId = 1,
                     Action = "Thêm nhận viên",
@@ -94,7 +95,7 @@ namespace DataAccessLayer
                 MessageBox.Show("Sửa thành công!", "Notification", MessageBoxButton.OK, MessageBoxImage.Information);
                 context.SaveChanges();
 
-                ActivityLogDAO.AddActivityLog(new ActivityLog
+                ActivityLogDao.AddActivityLog(new ActivityLog
                 {
                     UserId = 1,
                     Action = "Sửa nhận viên",
@@ -132,7 +133,7 @@ namespace DataAccessLayer
                     MessageBox.Show("Xóa thành công!");
                     context.SaveChanges();
 
-                    ActivityLogDAO.AddActivityLog(new ActivityLog
+                    ActivityLogDao.AddActivityLog(new ActivityLog
                     {
                         UserId = 1,
                         Action = "Xóa nhận viên",

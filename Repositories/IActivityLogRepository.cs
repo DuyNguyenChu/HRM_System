@@ -9,13 +9,9 @@ namespace Repositories
 {
     public interface IActivityLogRepository
     {
-
         List<ActivityLog> GetActivityLog();
         List<ActivityLog> SearchActivityLog(string keyword);
         void AddActivityLog(ActivityLog p);
         void DeleteActivityLog(ActivityLog p);
-        List<ActivityLog> GetAllActivityLogs();
-
-
     }
 }

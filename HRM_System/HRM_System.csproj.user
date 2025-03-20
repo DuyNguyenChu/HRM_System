@@ -14,11 +14,8 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EmployeeControl.xaml">
-		<SubType>Designer</SubType>
-	</Page>
-    <Compile Update="ActivityLogManageWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
+      <SubType>Designer</SubType>
+    </Page>
     <Compile Update="AttendanceManageWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,9 +34,6 @@
     <Compile Update="TimekeepingWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Page Update="ActivityLogManageWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="AttendanceManageWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
