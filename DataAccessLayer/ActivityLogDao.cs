@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using BusinessObjects;
+using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer
 {
@@ -39,6 +40,7 @@ namespace DataAccessLayer
                 keyword = keyword.ToLower().Trim();
                 return context.ActivityLogs.Where(b =>
                                     (b.Action != null && b.Action.ToLower().Contains(keyword)) ||
+                                    (b.Action != null && b.ActivityLogId.ToString().Contains(keyword)) ||
                                     (b.TableName != null && b.TableName.ToLower().Contains(keyword)) ||
                                     (b.TablePrimaryKey != null && b.TablePrimaryKey.ToLower().Contains(keyword)) ||
                                     (b.Details != null && b.Details.ToLower().Contains(keyword)) ||
@@ -99,6 +101,7 @@ namespace DataAccessLayer
                 MessageBox.Show($"Error: {ex.InnerException?.Message ?? ex.Message}", "Save Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
 
     }
 }

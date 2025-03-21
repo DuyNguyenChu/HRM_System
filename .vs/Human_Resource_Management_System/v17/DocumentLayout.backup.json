@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{651846B7-9A33-4459-B06C-264D541F6823}|HRM_System\\HRM_System.csproj|solutionrelative:hrm_system\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\nv200\\onedrive\\documents\\github\\hrm_system\\businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F09F96F4-1712-4114-ADB7-077121F5FD7A}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\nv200\\onedrive\\documents\\github\\hrm_system\\dataaccesslayer\\activitylogdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97E9BB4-F7CB-42DE-997A-5877C5597369}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\activitylogdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3CA2258-381E-4DC2-A386-B1B5146CF5E8}|Services\\Services.csproj|c:\\users\\nv200\\onedrive\\documents\\github\\hrm_system\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E3CA2258-381E-4DC2-A386-B1B5146CF5E8}|Services\\Services.csproj|solutionrelative:services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,24 +66,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\BusinessObjects\\appsettings.json",
+              "RelativeDocumentMoniker": "BusinessObjects\\appsettings.json",
+              "ToolTip": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\BusinessObjects\\appsettings.json",
+              "RelativeToolTip": "BusinessObjects\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T16:33:19.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActivityLogDao.cs",
+              "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\DataAccessLayer\\ActivityLogDao.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\ActivityLogDao.cs",
+              "ToolTip": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\DataAccessLayer\\ActivityLogDao.cs",
+              "RelativeToolTip": "DataAccessLayer\\ActivityLogDao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T16:28:42.045Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Login.xaml.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\HRM_System\\Login.xaml.cs",
               "RelativeDocumentMoniker": "HRM_System\\Login.xaml.cs",
-              "ToolTip": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\HRM_System\\Login.xaml.cs*",
-              "RelativeToolTip": "HRM_System\\Login.xaml.cs*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwDMAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\HRM_System\\Login.xaml.cs",
+              "RelativeToolTip": "HRM_System\\Login.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T11:55:44.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IUserServices.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\Services\\IUserServices.cs",
               "RelativeDocumentMoniker": "Services\\IUserServices.cs",
@@ -88,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\Services\\UserServices.cs",
               "RelativeDocumentMoniker": "Services\\UserServices.cs",
@@ -101,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\HRM_System\\App.xaml",
               "RelativeDocumentMoniker": "HRM_System\\App.xaml",
@@ -113,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Login.xaml",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\HRM_System\\Login.xaml",
               "RelativeDocumentMoniker": "HRM_System\\Login.xaml",
@@ -125,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\HRM_System\\MainWindow.xaml",
               "RelativeDocumentMoniker": "HRM_System\\MainWindow.xaml",
@@ -137,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "HrmSystemContext.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\DataAccessLayer\\HrmSystemContext.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\HrmSystemContext.cs",
@@ -150,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "EmployeesDao.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\DataAccessLayer\\EmployeesDao.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\EmployeesDao.cs",
@@ -163,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserDAO.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\DataAccessLayer\\UserDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\UserDAO.cs",
@@ -176,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserRepositories.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\Repositories\\UserRepositories.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepositories.cs",
@@ -189,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IUserRepositories.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\Repositories\\IUserRepositories.cs",
               "RelativeDocumentMoniker": "Repositories\\IUserRepositories.cs",
@@ -202,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\NV200\\OneDrive\\Documents\\GitHub\\HRM_System\\BusinessObjects\\User.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\User.cs",

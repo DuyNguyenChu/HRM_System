@@ -5,6 +5,9 @@
     <Compile Update="ActivityLogControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AdminScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -13,16 +16,52 @@
     <Page Update="ActivityLogControl.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="AdminScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="DepartmentControl.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="EmployeeControl.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Login.xaml">
+    <Compile Update="AttendanceManageWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LeaveRequestManageWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LRTrackingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReportAttendanceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SalaryManageWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TimekeepingWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Update="AttendanceManageWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LeaveRequestManageWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LRTrackingWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReportAttendanceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SalaryManageWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TimekeepingWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

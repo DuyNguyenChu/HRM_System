@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using BusinessObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace BusinessObjects;
+namespace DataAccessLayer;
 
 public partial class HrmSystemContext : DbContext
 {

@@ -40,9 +40,10 @@ namespace DataAccessLayer
 
                 return context.Employees
                     .Where(b =>
+                        (b.EmployeeId.ToString().Contains(keyword)) ||
                         (b.FullName != null && b.FullName.ToLower().Contains(keyword)) ||
                         (b.Address != null && b.Address.ToLower().Contains(keyword)) ||
-                        (b.PhoneNumber != null && b.PhoneNumber.Contains(keyword)) || // Không cần ToLower()
+                        (b.PhoneNumber != null && b.PhoneNumber.Contains(keyword)) ||
                         (b.Email != null && b.Email.ToLower().Contains(keyword)) ||
                         (b.Position != null && b.Position.ToLower().Contains(keyword)) ||
                         (b.Salary.ToString().Contains(keyword)) 

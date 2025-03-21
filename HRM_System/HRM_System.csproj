@@ -10,9 +10,7 @@
 
   <ItemGroup>
     <Compile Remove="App.xaml.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 

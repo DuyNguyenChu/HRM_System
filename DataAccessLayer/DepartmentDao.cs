@@ -41,7 +41,9 @@ namespace DataAccessLayer
 
                 keyword = keyword.ToLower().Trim();
                 return context.Departments.Where(b =>
-                                    (b.DepartmentName != null && b.DepartmentName.ToLower().Contains(keyword))).ToList();
+                                    (b.DepartmentName != null && b.DepartmentName.ToLower().Contains(keyword)) ||
+                                    (b.DepartmentId.ToString().Contains(keyword)) 
+                                    ).ToList();
 
             }
             catch (Exception ex)
