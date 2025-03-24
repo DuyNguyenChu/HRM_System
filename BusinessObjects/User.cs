@@ -9,7 +9,7 @@ public partial class User
 
     public string PhoneNumber { get; set; } = null!;
 
-    public string PasswordHash { get; set; } = null!;
+    public string PasswordHash{ get; set; } = null!;
 
     public string Role { get; set; } = null!;
 

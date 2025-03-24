@@ -22,7 +22,7 @@ namespace DataAccessLayer
             return _context.Attendances.Include(fullName => fullName.Employee).ToList();
         }
 
-        public Attendance GetAttendanceByEmployeeId(int id)
+        public Attendance? GetAttendanceByEmployeeId(int id)
         {
             return _context.Attendances.FirstOrDefault(b => b.EmployeeId == id);
         }

@@ -35,6 +35,7 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <!-- Search -->
@@ -92,8 +93,16 @@
             <!-- Profile Image -->
             <Label Content="Profile Image" Grid.Row="12"/>
             <TextBox Name="txtProfileImage" Grid.Row="12" Text="{Binding SelectedEmployee.ProfileImage, Mode=TwoWay}" Margin="90,0,40,10"/>
-            <Image Name="imgProfile" Grid.Row="13" Height="300" Stretch="Uniform" Margin="0,0,45,50" Grid.RowSpan="2"/>
 
+            <Button Content="Chọn ảnh" Click="btnChooseImage_Click" Grid.Row="12" Margin="90,0,40,10"/>
+            <Image Name="imgProfile" 
+       Grid.Row="13" 
+       Height="300" 
+       Width="300"
+       Stretch="Uniform" 
+       HorizontalAlignment="Center" 
+       VerticalAlignment="Center" 
+       Margin="0,0,45,50"/>
 
             <!-- Button Actions -->
             <StackPanel Grid.Row="15" Orientation="Horizontal" HorizontalAlignment="Left" Margin="10,10,0,10">

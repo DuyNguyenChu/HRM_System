@@ -18,6 +18,8 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using Repositories;
 using Services;
 using static System.Net.Mime.MediaTypeNames;
+using System.IO;
+using Microsoft.Win32;
 
 namespace HRM_System
 {
@@ -64,7 +66,8 @@ namespace HRM_System
                 txtSalary.Text = employee.Salary.ToString();
                 txtStartDate.SelectedDate = employee.StartDate.ToDateTime(TimeOnly.MinValue);
                 txtProfileImage.Text = employee.ProfileImage;
-                LoadProfileImage(employee.ProfileImage);
+
+                LoadProfileImage(selectedEmployee.ProfileImage);
             }
             else
             {
@@ -72,19 +75,30 @@ namespace HRM_System
             }
         }
 
-        private void LoadProfileImage(string imageUrl)
+        private void btnChooseImage_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog
+            {
+                Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif",
+                Title = "Chọn ảnh"
+            };
+
+            if (openFileDialog.ShowDialog() == true)
+            {
+                txtProfileImage.Text = openFileDialog.FileName;
+                LoadProfileImage(openFileDialog.FileName);
+            }
+        }
+
+
+        private void LoadProfileImage(string imagePath)
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(imageUrl))
-                {
-                    imgProfile.Source = null;
-                    return;
-                }
 
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
-                bitmap.UriSource = new Uri(imageUrl, UriKind.Absolute);
+                bitmap.UriSource = new Uri(imagePath, UriKind.Absolute);
                 bitmap.CacheOption = BitmapCacheOption.OnLoad;
                 bitmap.EndInit();
                 imgProfile.Source = bitmap;
@@ -94,6 +108,10 @@ namespace HRM_System
                 MessageBox.Show($"Không thể tải ảnh: {ex.Message}");
             }
         }
+
+
+
+
 
 
         private bool ValidateInput(out string FullName, out DateOnly DateOfBirth, out string Gender, out string? Address, out string PhoneNumber, out string? Email, out int? DepartmentId, out string? Position, out decimal Salary, out DateOnly StartDate, out string? ProfileImage)
@@ -190,28 +208,6 @@ namespace HRM_System
                     StartDate = StartDate,
                     ProfileImage = ProfileImage,
                 };
-
-                //var NewContent = new Employee
-                //{
-                //    FullName = txtFullName.Text,
-                //    DateOfBirth = string.IsNullOrWhiteSpace(txtDateOfBirth.Text)
-                //                  ? default
-                //                  : DateOnly.FromDateTime(DateTime.Parse(txtDateOfBirth.Text)),
-
-                //    Gender = txtGender.SelectedItem is ComboBoxItem selectedGender
-                //             ? selectedGender.Content.ToString()
-                //             : "Other",
-
-                //    Address = txtAddress.Text,
-                //    PhoneNumber = txtPhoneNumber.Text,
-                //    Email = txtEmail.Text,
-
-                //    DepartmentId = int.TryParse(txtDepartmentID.Text, out int deptId) ? deptId : null,
-                //    Salary = decimal.TryParse(txtSalary.Text, out decimal salary) ? salary : 0,
-
-                //    StartDate = DateOnly.FromDateTime(DateTime.Now)
-                //};
-
                 _employeeServices.AddEmployee(NewContent);
                 btnReset_Click(sender, e);
                 LoadData();
@@ -308,6 +304,7 @@ namespace HRM_System
             txtSalary.Clear();
             txtStartDate.SelectedDate = null;
             txtProfileImage.Clear();
+            imgProfile.Source = null;
         }
 
     }

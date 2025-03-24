@@ -21,7 +21,7 @@ namespace DataAccessLayer
             return _context.Salaries.Include(fullName => fullName.Employee).ToList();
         }
 
-        public Salary GetSalaryByEmployeeId(int id)
+        public Salary? GetSalaryByEmployeeId(int id)
         {
             return _context.Salaries.FirstOrDefault(b => b.EmployeeId == id);
         }

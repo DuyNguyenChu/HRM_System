@@ -5,9 +5,21 @@
     <Compile Update="ActivityLogControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AdminMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="ActivityLogControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdminMainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="DepartmentControl.xaml">
@@ -41,6 +53,8 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="LRTrackingWindow.xaml">
+    </Page>
+    <Page Update="Login.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
@@ -53,6 +67,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TimekeepingWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserMainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
