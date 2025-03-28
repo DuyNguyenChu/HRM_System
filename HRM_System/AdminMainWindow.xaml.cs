@@ -31,18 +31,66 @@ namespace HRM_System
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("nut 1");
+            ActivityLogControl main = new ActivityLogControl();
+            main.Show();
         }
 
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("nut 2");
+            EmployeeControl main = new EmployeeControl();
+            main.Show();
 
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("nut 3");
+            DepartmentControl main = new DepartmentControl();
+            main.Show();
+
+        }
+
+        private void Button4_Click(object sender, RoutedEventArgs e)
+        {
+            report main = new report();
+            main.Show();
+        }
+
+        private void Button5_Click(object sender, RoutedEventArgs e)
+        {
+            TimekeepingWindow main = new TimekeepingWindow();
+            main.Show();
+        }
+
+
+
+        private void Button6_Click(object sender, RoutedEventArgs e)
+        {
+            AttendanceManageWindow main = new AttendanceManageWindow();
+            main.Show();
+        }
+
+        private void Button7_Click(object sender, RoutedEventArgs e)
+        {
+            LeaveRequestManageWindow main = new LeaveRequestManageWindow();
+            main.Show();
+        }
+
+        private void Button8_Click(object sender, RoutedEventArgs e)
+        {
+            LRTrackingWindow main = new LRTrackingWindow();
+            main.Show();
+        }
+
+        private void Button9_Click(object sender, RoutedEventArgs e)
+        {
+            ReportAttendanceWindow  main = new ReportAttendanceWindow();
+            main.Show();
+        }
+
+        private void Button10_Click(object sender, RoutedEventArgs e)
+        {
+            SalaryManageWindow main = new SalaryManageWindow();
+            main.Show();
         }
     }
 }

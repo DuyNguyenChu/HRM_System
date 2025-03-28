@@ -21,9 +21,16 @@
 
         <!-- Khu vực nút điều hướng -->
         <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Nút 1" Width="200" Height="40" Margin="5" Click="Button1_Click"/>
-            <Button Content="Nút 2" Width="200" Height="40" Margin="5" Click="Button2_Click"/>
-            <Button Content="Nút 3" Width="200" Height="40" Margin="5" Click="Button3_Click"/>
+            <Button Content="ACtivity log" Width="200" Height="40" Margin="5" Click="Button1_Click"/>
+            <Button Content="Employee" Width="200" Height="40" Margin="5" Click="Button2_Click"/>
+            <Button Content="Depertment" Width="200" Height="40" Margin="5" Click="Button3_Click"/>
+            <Button Content="Report" Width="200" Height="40" Margin="5" Click="Button4_Click"/>
+            <Button Content="Time keeping" Width="200" Height="40" Click="Button5_Click"/>
+            <Button Content="Attendance" Width="200" Height="40" Click="Button6_Click"/>
+            <Button Content="leave request" Width="200" Height="40" Click="Button7_Click"/>
+            <Button Content="Tracking" Width="200" Height="40" Margin="5" Click="Button8_Click"/>
+            <Button Content="report attendence" Width="200" Height="40" Margin="5" Click="Button9_Click"/>
+            <Button Content="salary" Width="200" Height="40" Margin="5" Click="Button10_Click"/>
             <Button Content="Đăng xuất" Width="200" Height="40" Margin="5" Click="Logout_Click"/>
         </StackPanel>
     </Grid>

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <Compile Remove="App.xaml.cs" />
+    <PackageReference Include="EPPlus" Version="7.7.0" />
     <ProjectReference Include="..\Repositories\Repositories.csproj" />
     <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>

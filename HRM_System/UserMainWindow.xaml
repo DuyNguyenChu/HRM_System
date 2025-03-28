@@ -21,8 +21,8 @@
 
         <!-- Khu vực nút điều hướng -->
         <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button Content="Nút 1" Width="200" Height="40" Margin="5" Click="Button1_Click"/>
-            <Button Content="Nút 2" Width="200" Height="40" Margin="5" Click="Button2_Click"/>
+            <Button Content="ACtivity log" Width="200" Height="40" Margin="5" Click="Button1_Click"/>
+            <Button Content="Depertment" Width="200" Height="40" Margin="5" Click="Button3_Click"/>
             <Button Content="Nút 3" Width="200" Height="40" Margin="5" Click="Button3_Click"/>
             <Button Content="Đăng xuất" Width="200" Height="40" Margin="5" Click="Logout_Click"/>
         </StackPanel>

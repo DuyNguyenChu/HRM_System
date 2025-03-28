@@ -32,18 +32,17 @@ namespace HRM_System
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("nut 1");
+            ActivityLogControl main = new ActivityLogControl();
+            main.Show();
         }
 
-        private void Button2_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("nut 2");
 
-        }
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("nut 3");
+            DepartmentControl main = new DepartmentControl();
+            main.Show();
+
         }
     }
 }
